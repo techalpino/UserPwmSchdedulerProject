@@ -7,8 +7,11 @@ import javax.naming.NamingException;
 import javax.naming.ldap.InitialLdapContext;
 import javax.naming.ldap.LdapContext;
 
+import org.springframework.stereotype.Component;
+
 import com.techalpino.ldap.handler.LdapConnection;
 
+@Component
 public class LdapConnectionImpl implements LdapConnection {
 
 	/* (non-Javadoc)
