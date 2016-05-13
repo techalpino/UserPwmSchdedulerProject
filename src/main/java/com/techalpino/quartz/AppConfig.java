@@ -12,9 +12,9 @@ import org.springframework.scheduling.config.ScheduledTaskRegistrar;
 import org.springframework.stereotype.Component;
  
 
-@Configuration
+/*@Configuration
 @EnableScheduling
-@Component
+@Component*/
 public class AppConfig implements SchedulingConfigurer {
  
     @Bean

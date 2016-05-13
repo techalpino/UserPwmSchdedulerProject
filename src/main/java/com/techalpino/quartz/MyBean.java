@@ -5,7 +5,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import com.techalpino.db.operations.TaskOperationImpl;
- @Component
+ 
 public class MyBean {
  
 	
